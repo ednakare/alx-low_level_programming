@@ -5,7 +5,6 @@
  * main - A program that prints the alphabet in lowercase, and in uppercase
  * Return: always 0
  */
-
 int main(void)
 {
 	int n = 97;
