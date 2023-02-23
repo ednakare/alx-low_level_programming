@@ -1,14 +1,12 @@
 #include "main.h"
-#include <unistd.h>
+
 /**
- * main - a function that checks for a digit 0 through 9
- * @c: The character to print
- *
- * Return: On success 1.
- * On error, -1 is returned, and error is set appropriately.
+ * _isdigit - checks for a digit 0 through 9
+ * @c: int to be checked
+ * Return: 1 if c is a digit, 0 otherwise
  */
-int _putchar(char c)
+int _isdigit(int c)
 {
- return (write(1, &c, 1));
+return (c >= '0' && c <= '9');
 }
 
